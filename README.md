@@ -1,2 +1,2 @@
 # vscode_python
-python  小程序
+python 小程序
