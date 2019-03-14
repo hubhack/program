@@ -1,6 +1,4 @@
 from turtle import *
-
-
 # 无轨迹跳跃
 def my_goto(x, y):
     penup()
