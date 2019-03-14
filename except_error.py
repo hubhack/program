@@ -16,9 +16,3 @@ while True:
     except ValueError:
         print("Oops!  That was no valid number.  Try again...")
 '''
-try:
-    pass
-except expression as identifier:
-    pass
-else:
-    pass
