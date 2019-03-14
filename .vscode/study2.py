@@ -7,3 +7,4 @@ for x in range (1,11):
 '''
 print('{name}网址： {site}'.format(name='菜鸟教程', site='www.runoob.com'))
 print('{0}网址:  {1}'.format('菜鸟教程','www.runoob.com'))
+print ('')
