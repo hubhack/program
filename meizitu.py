@@ -13,7 +13,7 @@ def get_url(i):
     doc = pq(html)  #请求到的链接初始化为pyquery类型
     lis = doc('#pagecontent .tit a').items()  #查找组图的链接，选择出 id=pagecontent标签 下 class=tit标签 中的a标签，再用.items()转换为可以遍历的对象
     for li in lis:  #遍历上面的结果，取出组图的链接和名字，名字只是为了后面保存的时候建文件夹
-        url_g = li.attr('href')1
+        url_g = li.attr('href')
         name_g = li.text()
         if not os.path.exists('image1' + '/' + str(name_g)):  # 检测是否有image目录没有则创建
             os.makedirs('image1' + '/' + str(name_g))
